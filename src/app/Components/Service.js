@@ -20,11 +20,11 @@ const Service = () => {
       <h1 className='text-center text-[40px] font-bold'>Our <span className='bg-hero-newbg bg-cover w-[206px] text-center uppercase lg:text-6xl px-4  rounded-2xl text-white '> Sevice</span></h1>
       <p className='font-semibold text-center'>Discover Our Core Services</p>
       {/* start */}
-      <div className='flex flex-wrap gap-8 pt-8 lg:flex-nowrap'>
+      <div className='flex flex-wrap gap-8 pt-8 lg:flex-nowrap justify-center lg:justify-start'>
                 {/* 1stdiv */}
 
-          <div className='bg-black xl:w-[400px] lg:w-[380px]  md:w-[360px] xl:sm:w-[340px] w-[310px] h-[450px] rounded-2xl rotate-3'>
-              <div className='bg-[#F7F7F7] xl:w-[400px] lg:w-[380px] md:w-[360px] xl:sm:w-[340px] w-[310px] h-[450px] rounded-2xl -rotate-2 '>
+          <div className='bg-black xl:w-[400px] lg:w-[380px]  md:w-[360px] xl:sm:w-[320px] w-[280px] h-[450px] rounded-2xl rotate-3 '>
+              <div className='bg-[#F7F7F7] xl:w-[400px] lg:w-[380px] md:w-[360px] xl:sm:w-[320px] w-[280px] h-[450px] rounded-2xl -rotate-2 '>
               <div className='flex items-center justify-center xl:py-12 py-8'>
                   <Image src={image1} className/>
                 </div>
@@ -32,15 +32,15 @@ const Service = () => {
 
 
                 <p className='px-5 py-6 font-normal text-center'>Unlock the power of Artificial Intelligence (AI) with our comprehensive suite of services</p>
-          <div className='flex justify-between px-5 py-24'>
+          <div className='flex justify-between px-5 xl:py-24'>
             <p className='font-bold text-[18px]'>See more</p>
-            <span className='flex items-center justify-center w-12 h-12 text-white bg-black rounded-full'>
+            <span className='flex items-center justify-center w-12 h-12 text-white bg-black rounded-full '>
             <GoArrowUpRight className=' w-[24px] h-[24px] '/></span> </div>
               </div>
               </div>
               {/* 2nddiv */}
-              <div className='bg-black xl:w-[400px] lg:w-[380px] md:w-[360px] xl:sm:w-[340px] w-[310px] h-[450px] rounded-2xl rotate-3'>
-              <div className='bg-[#F7F7F7] xl:w-[400px]  lg:w-[380px] md:w-[360px] xl:sm:w-[340px] w-[310px] h-[450px] rounded-2xl -rotate-2 '>
+              <div className='bg-black xl:w-[400px] lg:w-[380px] md:w-[360px] xl:sm:w-[320px] w-[280px] h-[450px] rounded-2xl rotate-3  '>
+              <div className='bg-[#F7F7F7] xl:w-[400px]  lg:w-[380px] md:w-[360px] xl:sm:w-[320px] w-[280px] h-[450px] rounded-2xl -rotate-2 '>
               <div className='flex items-center justify-center xl:py-12 py-8'>
                   <Image src={image2} className/>
                 </div>
@@ -55,8 +55,8 @@ const Service = () => {
               </div>
               </div>
               {/* 3div */}
-              <div className='bg-black xl:w-[400px] lg:w-[380px] md:w-[360px] xl:sm:w-[340px] w-[310px] h-[450px] rounded-2xl rotate-3'>
-              <div className='bg-[#F7F7F7] xl:w-[400px] lg:w-[380px]  md:w-[360px] xl:sm:w-[340px] w-[310px] h-[450px] rounded-2xl -rotate-2 '>
+              <div className='bg-black xl:w-[400px] lg:w-[380px] md:w-[360px] xl:sm:w-[320px] w-[280px] h-[450px] rounded-2xl rotate-3 '>
+              <div className='bg-[#F7F7F7] xl:w-[400px] lg:w-[380px]  md:w-[360px] xl:sm:w-[320px] w-[280px] h-[450px] rounded-2xl -rotate-2 '>
               <div className='flex items-center justify-center lg:py-12 py-8'>
                   <Image src={image3} className/>
                 </div>
@@ -72,9 +72,9 @@ const Service = () => {
               </div>
               </div></div>
               {/* Last */}
-              <div className='flex flex-wrap gap-8 pt-12 lg:flex:nowrap '>
-              <div className='bg-black xl:w-[400px] lg:w-[380px] md:w-[360px] xl:sm:w-[340px] w-[310px] h-[450px] rounded-2xl rotate-3'>
-              <div className='bg-[#F7F7F7] xl:w-[400px] lg:w-[380px] md:w-[360px] xl:sm:w-[340px] w-[310px] h-[450px] rounded-2xl -rotate-2 '>
+              <div className='flex flex-wrap gap-8 pt-12 lg:flex:nowrap justify-center lg:justify-start'>
+              <div className='bg-black xl:w-[400px] lg:w-[380px] md:w-[360px] xl:sm:w-[320px] w-[280px] h-[450px] rounded-2xl rotate-3 '>
+              <div className='bg-[#F7F7F7] xl:w-[400px] lg:w-[380px] md:w-[360px] xl:sm:w-[320px] w-[280px] h-[450px] rounded-2xl -rotate-2 '>
               <div className='flex items-center justify-center xl:py-10 py-8'>
                   <Image src={image4} className/>
                 </div>
@@ -90,8 +90,8 @@ const Service = () => {
               </div>
               </div>
         {/* 2nd */}
-        <div className='bg-black xl:w-[400px] lg:w-[380px] md:w-[360px] xl:sm:w-[340px] w-[310px]  h-[450px] rounded-2xl rotate-3'>
-              <div className='bg-[#F7F7F7] xl:w-[400px] lg:w-[380px] md:w-[360px] xl:sm:w-[340px] w-[310px]  h-[450px] rounded-2xl -rotate-2 '>
+        <div className='bg-black xl:w-[400px] lg:w-[380px] md:w-[360px] xl:sm:w-[320px] w-[280px]  h-[450px] rounded-2xl rotate-3  '>
+              <div className='bg-[#F7F7F7] xl:w-[400px] lg:w-[380px] md:w-[360px] xl:sm:w-[320px] w-[280px]  h-[450px] rounded-2xl -rotate-2 '>
               <div className='flex items-center justify-center xl:py-10 py-8'>
                   <Image src={image5} className/>
                 </div>
@@ -107,8 +107,8 @@ const Service = () => {
               </div>
               </div>
         {/* 3rd */}
-        <div className='bg-black xl:w-[400px] lg:w-[380px] md:w-[360px] xl:sm:w-[340px] w-[310px] h-[450px] rounded-2xl rotate-3'>
-              <div className='bg-[#F7F7F7] xl:w-[400px]  lg:w-[380px] md:w-[360px] xl:sm:w-[340px] w-[310px] h-[450px] rounded-2xl -rotate-2 '>
+        <div className='bg-black xl:w-[400px] lg:w-[380px] md:w-[360px] xl:sm:w-[320px] w-[280px] h-[450px] rounded-2xl rotate-3 '>
+              <div className='bg-[#F7F7F7] xl:w-[400px]  lg:w-[380px] md:w-[360px] xl:sm:w-[320px] w-[280px] h-[450px] rounded-2xl -rotate-2 '>
               <div className='flex items-center justify-center xl:py-10 py-8'>
                   <Image src={image6} className/>
                 </div>

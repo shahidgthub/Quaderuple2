@@ -32,11 +32,12 @@ const Mobilemenu = () => {
                 
                   
                 <div className="flex justify-center items-center">
-  <button className="lg:flex border-2 px-4 py-3 rounded-3xl bg-[#00A87D] mt-5 hover:bg-black items-center space-x-2">
+  <button className="flex border-2 px-4 py-3 rounded-3xl bg-[#00A87D] mt-5 hover:bg-black items-center space-x-2">
     <span className='text-white text-[18px] font-bold'>Contact Us</span>
     <MdArrowOutward className='w-[18px] h-[14.5px] text-white' />
   </button>
 </div>
+
       </SheetDescription>
     </SheetHeader>
   </SheetContent>
