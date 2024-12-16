@@ -37,14 +37,15 @@ const Contact = () => {
               <br />
               questions.
             </p>
-            <div className="py-3 flex gap-4 lg:justify-start justify-center">
-              <Frame />
-              <p className="text-white">
-                Worldwide Remote Headquartered in
-                <br />
-                Islamabad, Pakistan
-              </p>
-            </div>
+            <div className="py-3 flex gap-3 lg:justify-start justify-center">
+    <div className='sm:px-6 xl:px-0'><Frame/></div>
+    <p className="text-white text-[12px] xl:text-[16px] mt-2">
+        Worldwide Remote Headquartered in
+        <br />
+        Islamabad, Pakistan
+    </p>
+</div>
+
             <div className="flex gap-3 py-3  lg:justify-start justify-center">
               <Call />
               <div>

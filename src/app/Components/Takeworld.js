@@ -13,6 +13,7 @@ import Fakhar from '../../../public/images/Fakhar.jpg'
 import Shaheen from '../../../public/images/Shaheen.jpg'
 import Haris from '../../../public/images/HarisRauf.jpg'
 import Autoplay from './AutoPlay'
+import SimpleSlider from './SimpleWork'
 const Takeworld = () => {
   return (
     <>
@@ -23,9 +24,9 @@ const Takeworld = () => {
           <Star className="absolute right-4 lg:right-32 top-10" />
 
           {/* Heading */}
-          <h1 className="text-white text-center text-2xl lg:text-4xl py-6">
+          <h1 className="text-white text-center text-3xl xl:text-6xl py-6">
             Take on the <br />
-            <span className="bg-hero-newbg bg-cover w-[206px] text-center lg:text-6xl px-2  rounded-2xl text-white ">world </span> with us
+            <span className="bg-hero-newbg bg-cover w-[206px] text-center lg:text-6xl px-2  rounded-2xl text-white ">world </span>     with us
           </h1>
           {/* CardSection */}
           <div className='flex  lg:flex-nowrap flex-wrap gap-8'>
@@ -42,7 +43,7 @@ const Takeworld = () => {
             {/* 2 */}
             <div className="bg-[#333333] w-full max-w-xs lg:max-w-sm rounded-2xl">
               <div className="px-6 pt-4">
-                <Image src={london} alt="New york" className="w-full h-auto object-cover rounded-lg" />
+                <Image src={london} alt="london" className="w-full h-auto object-cover rounded-lg" />
                 <p className="text-2xl text-white py-2"> London</p>
                 <p className="text-white py-2">
                   Pleasanton, California – 6701 Koll Center Parkway, #250 Pleasanton, CA 94566
@@ -53,7 +54,7 @@ const Takeworld = () => {
             {/* 3 */}
             <div className="bg-[#333333] w-full max-w-xs lg:max-w-sm rounded-2xl">
               <div className="px-6 pt-4">
-                <Image src={singha} alt="New york" className="w-full h-auto object-cover rounded-lg" />
+                <Image src={singha} alt="singha" className="w-full h-auto object-cover rounded-lg" />
                 <p className="text-2xl text-white py-2"> Singhaphor</p>
                 <p className="text-white py-2">
                   Pleasanton, California – 6701 Koll Center Parkway, #250 Pleasanton, CA 94566
@@ -70,10 +71,12 @@ const Takeworld = () => {
           
         <section className='mt-12'>
           <div className=' container mx-auto'>
-            <h1 className='text-center text-[40px] py-6'>Our <span className=' bg-hero-newbg bg-cover w-[206px] text-center lg:text-6xl px-4  
+            <h1 className='text-center xl:text-6xl text-4xl'>Our <span className=' bg-hero-newbg bg-cover w-[206px] text-center lg:text-6xl px-4  
             rounded-2xl text-white'>Team</span></h1>
+            <p className='text-center py-3 text-[16px] font-semibold'> Pakistan Circket Team </p>
             {/* <div className='flex gap-4 pt-6 lg:flex-nowrap flex-wrap'> */}
             <Autoplay/>
+   
               {/* new */}
 {/* <div className='items-center justify-center flex'>
                 <Image src={baber} className='w-[311px]  h-[352px] rounded-3xl'/>

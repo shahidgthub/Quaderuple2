@@ -40,28 +40,28 @@ const SimpleSlider = () => {
       <div className="px-8">
         <Image
           src={home}
-          className="w-[397px] h-[297px] object-cover rounded-2xl"
+          className="w-[297px] h-[297px] object-cover rounded-2xl border-4 border-white"
           alt="Image 1"
         />
       </div>
       <div className="px-8">
         <Image
           src={home2}
-          className="w-[397px] h-[297px] object-cover rounded-2xl "
+          className="w-[297px] h-[297px] object-cover rounded-2xl border-4 border-white "
           alt="Image 2"
         />
       </div>
       <div className="px-8">
         <Image
           src={home3}
-          className="w-[397px] h-[297px] object-cover rounded-2xl"
+          className="w-[297px] h-[297px] object-cover rounded-2xl  border-4 border-white"
           alt="Image 3"
         />
       </div>
       <div className="px-8">
         <Image
           src={home4}
-          className="w-[397px] h-[297px] object-cover rounded-2xl"
+          className="w-[297px] h-[297px] object-cover rounded-2xl  border-4 border-white"
           alt="Image 4"
         />
       </div>

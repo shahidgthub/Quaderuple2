@@ -17,8 +17,8 @@ import { GoArrowUpRight } from "react-icons/go";
 const Service = () => {
   return (
     <div className='container pt-6 mx-auto'>
-      <h1 className='text-center text-[40px] font-bold'>Our <span className='bg-hero-newbg bg-cover w-[206px] text-center uppercase lg:text-6xl px-4  rounded-2xl text-white '> Sevice</span></h1>
-      <p className='font-semibold text-center'>Discover Our Core Services</p>
+      <h1 className='text-center xl:text-6xl text-4xl capitalize font-bold'>Our <span className='bg-hero-newbg bg-cover w-[206px] text-center uppercase lg:text-6xl px-4  rounded-2xl text-white '> Sevice</span></h1>
+      <p className='font-semibold text-center py-4'>Discover Our Core Services</p>
       {/* start */}
       <div className='flex flex-wrap gap-8 pt-8 lg:flex-nowrap justify-center lg:justify-start'>
                 {/* 1stdiv */}
@@ -26,7 +26,7 @@ const Service = () => {
           <div className='bg-black xl:w-[400px] lg:w-[380px]  md:w-[360px] xl:sm:w-[320px] w-[280px] h-[450px] rounded-2xl rotate-3 '>
               <div className='bg-[#F7F7F7] xl:w-[400px] lg:w-[380px] md:w-[360px] xl:sm:w-[320px] w-[280px] h-[450px] rounded-2xl -rotate-2 '>
               <div className='flex items-center justify-center xl:py-12 py-8'>
-                  <Image src={image1} className/>
+                  <Image src={image1} alt='img' className/>
                 </div>
                 <p className='text-center text-[#2B2B2B] font-bold text-[26px]'>Ai Service</p>
 
@@ -42,7 +42,7 @@ const Service = () => {
               <div className='bg-black xl:w-[400px] lg:w-[380px] md:w-[360px] xl:sm:w-[320px] w-[280px] h-[450px] rounded-2xl rotate-3  '>
               <div className='bg-[#F7F7F7] xl:w-[400px]  lg:w-[380px] md:w-[360px] xl:sm:w-[320px] w-[280px] h-[450px] rounded-2xl -rotate-2 '>
               <div className='flex items-center justify-center xl:py-12 py-8'>
-                  <Image src={image2} className/>
+                  <Image src={image2} alt='img2' className/>
                 </div>
                 <p className='text-center text-[#2B2B2B] font-bold text-[26px]'>Blockchain Development</p>
 
@@ -58,7 +58,7 @@ const Service = () => {
               <div className='bg-black xl:w-[400px] lg:w-[380px] md:w-[360px] xl:sm:w-[320px] w-[280px] h-[450px] rounded-2xl rotate-3 '>
               <div className='bg-[#F7F7F7] xl:w-[400px] lg:w-[380px]  md:w-[360px] xl:sm:w-[320px] w-[280px] h-[450px] rounded-2xl -rotate-2 '>
               <div className='flex items-center justify-center lg:py-12 py-8'>
-                  <Image src={image3} className/>
+                  <Image src={image3}  alt='img3'className/>
                 </div>
                 <p className='text-center text-[#2B2B2B] font-bold text-[26px]'>WebDevelopment</p>
 
@@ -76,7 +76,7 @@ const Service = () => {
               <div className='bg-black xl:w-[400px] lg:w-[380px] md:w-[360px] xl:sm:w-[320px] w-[280px] h-[450px] rounded-2xl rotate-3 '>
               <div className='bg-[#F7F7F7] xl:w-[400px] lg:w-[380px] md:w-[360px] xl:sm:w-[320px] w-[280px] h-[450px] rounded-2xl -rotate-2 '>
               <div className='flex items-center justify-center xl:py-10 py-8'>
-                  <Image src={image4} className/>
+                  <Image src={image4} alt='img4' className/>
                 </div>
                 <p className='text-center text-[#2B2B2B] font-bold text-[26px]'>DevOps Service</p>
 
@@ -93,7 +93,7 @@ const Service = () => {
         <div className='bg-black xl:w-[400px] lg:w-[380px] md:w-[360px] xl:sm:w-[320px] w-[280px]  h-[450px] rounded-2xl rotate-3  '>
               <div className='bg-[#F7F7F7] xl:w-[400px] lg:w-[380px] md:w-[360px] xl:sm:w-[320px] w-[280px]  h-[450px] rounded-2xl -rotate-2 '>
               <div className='flex items-center justify-center xl:py-10 py-8'>
-                  <Image src={image5} className/>
+                  <Image src={image5} alt='img5' className/>
                 </div>
                 <p className='text-center text-[#2B2B2B] font-bold text-[26px]'>Web/Cyber Security</p>
 
@@ -110,7 +110,7 @@ const Service = () => {
         <div className='bg-black xl:w-[400px] lg:w-[380px] md:w-[360px] xl:sm:w-[320px] w-[280px] h-[450px] rounded-2xl rotate-3 '>
               <div className='bg-[#F7F7F7] xl:w-[400px]  lg:w-[380px] md:w-[360px] xl:sm:w-[320px] w-[280px] h-[450px] rounded-2xl -rotate-2 '>
               <div className='flex items-center justify-center xl:py-10 py-8'>
-                  <Image src={image6} className/>
+                  <Image src={image6}  alt='img6' className/>
                 </div>
                 <p className='text-center text-[#2B2B2B] font-bold text-[26px]'>AWS Services</p>
 

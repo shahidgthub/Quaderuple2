@@ -39,8 +39,8 @@ const Autoplay = () => {
       <Slider {...settings}>
         <div>
           <div className='items-center justify-center flex'>
-            <Image src={baber} className='xl:w-[311px] w-[300px] h-[352px] rounded-3xl' alt="Baber Azam" />
-            <div className='bg-[#000000B2] xl:w-[311px]  w-[300px] h-[69px] opacity-2 absolute mt-72 rounded-3xl'>
+            <Image src={baber} className='xl:w-[311px] lg:w-[300px] w-[280px] h-[352px] rounded-3xl' alt="Baber Azam" />
+            <div className='bg-[#000000B2] xl:w-[311px]  lg:w-[300px] w-[280px] h-[69px] opacity-2 absolute mt-72 rounded-3xl'>
               <p className='text-center text-white text-[20px] font-bold pt-3'>Baber Azam</p>
               <p className='text-center text-white text-[16px]'>Captain (Batting)</p>
             </div>
@@ -49,8 +49,8 @@ const Autoplay = () => {
         {/* Slide 2 */}
         <div>
           <div className='items-center justify-center flex'>
-            <Image src={Fakhar} className='xl:w-[311px] w-[300px] h-[352px] rounded-3xl' alt="Fakhar Zaman" />
-            <div className='bg-[#000000B2] xl:w-[311px] w-[300px] h-[69px] opacity-2 absolute mt-72 rounded-3xl'>
+            <Image src={Fakhar} className='xl:w-[311px] lg:w-[300px] w-[280px] h-[352px] rounded-3xl' alt="Fakhar Zaman" />
+            <div className='bg-[#000000B2] xl:w-[311px] lg:w-[300px] w-[280px] h-[69px] opacity-2 absolute mt-72 rounded-3xl'>
               <p className='text-center text-white text-[20px] font-bold pt-3'>Fakhar Zaman</p>
               <p className='text-center text-white text-[16px]'>Batting</p>
             </div>
@@ -59,8 +59,8 @@ const Autoplay = () => {
         {/* Slide 3 */}
         <div>
           <div className='items-center justify-center flex'>
-            <Image src={Shaheen} className='xl:w-[311px] w-[300px] h-[352px] rounded-3xl' alt="Shaheen Afridi" />
-            <div className='bg-[#000000B2] xl:w-[311px] w-[300px] h-[69px] opacity-2 absolute mt-72 rounded-3xl'>
+            <Image src={Shaheen} className='xl:w-[311px] lg:w-[300px] w-[280px] h-[352px] rounded-3xl' alt="Shaheen Afridi" />
+            <div className='bg-[#000000B2] xl:w-[311px] lg:w-[300px] w-[280px] h-[69px] opacity-2 absolute mt-72 rounded-3xl'>
               <p className='text-center text-white text-[20px] font-bold pt-3'>Shaheen Afridi</p>
               <p className='text-center text-white text-[16px]'>Bowler</p>
             </div>
@@ -69,8 +69,8 @@ const Autoplay = () => {
         {/* Slide 4 */}
         <div>
           <div className='items-center justify-center flex'>
-            <Image src={Haris} className='xl:w-[311px]  w-[300px] h-[352px] rounded-3xl' alt="Haris Rauf" />
-            <div className='bg-[#000000B2] xl:w-[311px] w-[300px] h-[69px] opacity-2 absolute mt-72 rounded-3xl'>
+            <Image src={Haris} className='xl:w-[311px]  lg:w-[300px] w-[280px] h-[352px] rounded-3xl' alt="Haris Rauf" />
+            <div className='bg-[#000000B2] xl:w-[311px] lg:w-[300px] w-[280px] h-[69px] opacity-2 absolute mt-72 rounded-3xl'>
               <p className='text-center text-white text-[20px] font-bold pt-3'>Haris Rauf</p>
               <p className='text-center text-white text-[16px]'>Bowler</p>
             </div>
