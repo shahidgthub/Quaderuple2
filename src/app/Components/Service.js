@@ -16,11 +16,11 @@ import { GoArrowUpRight } from "react-icons/go";
 
 const Service = () => {
   return (
-    <div className='container pt-6 mx-auto'>
+    <div className='container pt-12 mx-auto'>
       <h1 className='text-center xl:text-6xl text-4xl capitalize font-bold'>Our <span className='bg-hero-newbg bg-cover w-[206px] text-center uppercase lg:text-6xl px-4  rounded-2xl text-white '> Sevice</span></h1>
       <p className='font-semibold text-center py-4'>Discover Our Core Services</p>
       {/* start */}
-      <div className='flex flex-wrap gap-8 pt-8 lg:flex-nowrap justify-center lg:justify-start'>
+      <div className='flex flex-wrap xl:gap-8 gap-4 pt-8 lg:flex-nowrap justify-center lg:justify-start'>
                 {/* 1stdiv */}
 
           <div className='bg-black xl:w-[400px] lg:w-[380px]  md:w-[360px] xl:sm:w-[320px] w-[280px] h-[450px] rounded-2xl rotate-3 '>
@@ -72,9 +72,9 @@ const Service = () => {
               </div>
               </div></div>
               {/* Last */}
-              <div className='flex flex-wrap gap-8 pt-12 lg:flex:nowrap justify-center lg:justify-start'>
+              <div className='flex flex-wrap xl:gap-8 gap-3 pt-12 lg:flex:nowrap justify-center lg:justify-start'>
               <div className='bg-black xl:w-[400px] lg:w-[380px] md:w-[360px] xl:sm:w-[320px] w-[280px] h-[450px] rounded-2xl rotate-3 '>
-              <div className='bg-[#F7F7F7] xl:w-[400px] lg:w-[380px] md:w-[360px] xl:sm:w-[320px] w-[280px] h-[450px] rounded-2xl -rotate-2 '>
+              <div className='bg-[#F7F7F7] xl:w-[400px] lg:w-[380px] md:w-[360px] xl:sm:w-[320px] w-[280px] h-[450px] rounded-2xl -rotate-2'>
               <div className='flex items-center justify-center xl:py-10 py-8'>
                   <Image src={image4} alt='img4' className/>
                 </div>
@@ -122,10 +122,7 @@ const Service = () => {
             <span className='flex items-center justify-center w-12 h-12 text-white bg-black rounded-full'>
             <GoArrowUpRight className=' w-[24px] h-[24px] '/></span> </div>
               </div>
-              </div>
-            
-
-              
+              </div>       
     </div>
     </div>
     

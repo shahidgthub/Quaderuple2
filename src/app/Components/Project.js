@@ -19,7 +19,7 @@ export const Project = () => {
   </div>
   <h1 className='text-white lg:text-[40px] md:text[32px] text-24px text-center py-6'>
     Our
-    <span className='bg-hero-newbg bg-cover w-[206px] text-center lg:text-6xl text-text-4xl px-4 rounded-2xl text-white'>
+    <span className='bg-hero-newbg bg-cover w-[206px] text-center lg:text-6xl  px-4 rounded-2xl text-white'>
       Best Work
     </span> 
     of<br /> Successful Projects
