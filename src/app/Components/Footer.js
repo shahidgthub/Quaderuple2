@@ -52,12 +52,13 @@ const Footer = () => {
                 < MdOutlineEmail className='text-[#007D58] mt-1' />
                 <p className="text-[16px]">info@marvellex.com</p>
               </div>
-            </div>                
-
-
-
-
             </div>
+            </div>
+            
+            </div>
+            <div className='bg-[#2B2B2B] mt-6'>
+              <p className='text-white text-center pt-6 font-semibold'>©2024 by Quadruple Solution. All Right Reserved.</p>
+
             </div>
         </section>
     

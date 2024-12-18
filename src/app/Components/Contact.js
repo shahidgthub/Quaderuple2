@@ -37,7 +37,7 @@ const Contact = () => {
               <br />
               questions.
             </p>
-            <div className="py-3 flex gap-3 lg:justify-start justify-center">
+            <div className="py-3 flex gap-3 ">
     <div className='sm:px-6 xl:px-0'><Frame/></div>
     <p className="text-white text-[12px] xl:text-[16px] mt-2">
         Worldwide Remote Headquartered in
@@ -46,14 +46,14 @@ const Contact = () => {
     </p>
 </div>
 
-            <div className="flex gap-3 py-3  lg:justify-start justify-center">
+            <div className="flex gap-3 py-3 ">
               <Call />
               <div>
                 <p className="text-[#00A87D]">Phone number</p>
                 <p className="text-white">+92 313 337 7434</p>
               </div>
             </div>
-            <div className="flex gap-4 py-3 lg:justify-start justify-center">
+            <div className="flex gap-4 py-3 ">
               <Email />
               <div>
                 <p className="text-[#00A87D]">Email</p>
