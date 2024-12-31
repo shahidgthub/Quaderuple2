@@ -1,12 +1,3 @@
-
-'use client';
-
-
-import React, { useState } from 'react';
-import Image from 'next/image';
-import work from '../../../public/images/newWork.jpg';
-import work2 from '../../../public/images/newWork2.jpg';
-import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 // import {
 //   Carousel,
 //   CarouselContent,
@@ -14,62 +5,7 @@ import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 //   CarouselNext,
 //   CarouselPrevious,
 // } from "@/components/ui/carousel"
-
-const Workslider = () => {
-  const [currentIndex, setCurrentIndex] = useState(0);
-
-  const slides = [
-    [
-      {
-        id: 1,
-        image: work,
-        title: "01",
-        heading: "Product Data",
-        description:
-          "A Platform that connects design and construction professionals with product, manufacturers, and suppliers in a convenient and user-friendly platform.",
-        head: 'Product Data',
-      },
-      {
-        id: 2,
-        image: work2,
-        title: "02",
-        description:
-          "We start by getting to know our clients, their business goals, and their target audience.",
-        head: 'Web Development',
-      },
-    ],
-    [
-      {
-        id: 3,
-        image: work,
-        title: "03",
-        description:
-          "A Platform that connects design and construction professionals with product, manufacturers, and suppliers in a convenient and user-friendly platform.",
-        head: 'Product Data',
-      },
-      {
-        id: 4,
-        image: work2,
-        title: "04",
-        description:
-          "We start by getting to know our clients, their business goals, and their target audience.",
-        head: "Web Development",
-      },
-    ],
-  ];
-
-  const handleNext = () => {
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % slides.length);
-  };
-
-  const handlePrevious = () => {
-    setCurrentIndex((prevIndex) =>
-      prevIndex === 0 ? slides.length - 1 : prevIndex - 1
-    );
-  };
-
-  return (
-    // <div className="relative w-full max-w-6xl mx-auto overflow-hidden">
+ // <div className="relative w-full max-w-6xl mx-auto overflow-hidden">
     //   {/* Carousel Container */}
     //   <Carousel className="flex ">
     //     <CarouselContent className="flex">
@@ -154,6 +90,71 @@ const Workslider = () => {
     //     </CarouselNext>
     //   </Carousel>
     // </div>
+'use client';
+
+
+import React, { useState } from 'react';
+import Image from 'next/image';
+import work from '../../../public/images/newWork.jpg';
+import work2 from '../../../public/images/newWork2.jpg';
+import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
+
+
+const Workslider = () => {
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  const slides = [
+    [
+      {
+        id: 1,
+        image: work,
+        title: "01",
+        heading: "Product Data",
+        description:
+          "A Platform that connects design and construction professionals with product, manufacturers, and suppliers in a convenient and user-friendly platform.",
+        head: 'Product Data',
+      },
+      {
+        id: 2,
+        image: work2,
+        title: "02",
+        description:
+          "We start by getting to know our clients, their business goals, and their target audience.",
+        head: 'Web Development',
+      },
+    ],
+    [
+      {
+        id: 3,
+        image: work,
+        title: "03",
+        description:
+          "A Platform that connects design and construction professionals with product, manufacturers, and suppliers in a convenient and user-friendly platform.",
+        head: 'Product Data',
+      },
+      {
+        id: 4,
+        image: work2,
+        title: "04",
+        description:
+          "We start by getting to know our clients, their business goals, and their target audience.",
+        head: "Web Development",
+      },
+    ],
+  ];
+
+  const handleNext = () => {
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % slides.length);
+  };
+
+  const handlePrevious = () => {
+    setCurrentIndex((prevIndex) =>
+      prevIndex === 0 ? slides.length - 1 : prevIndex - 1
+    );
+  };
+
+  return (
+   
 
     <div className="relative w-full max-w-6xl mx-auto overflow-hidden">
   {/* Carousel Content */}

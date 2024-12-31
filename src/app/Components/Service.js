@@ -20,60 +20,130 @@ const Service = () => {
       <h1 className='text-center xl:text-6xl text-4xl capitalize font-bold'>Our <span className='bg-hero-newbg bg-cover w-[206px] text-center uppercase lg:text-6xl px-4  rounded-2xl text-white '> Sevice</span></h1>
       <p className='font-semibold text-center py-4'>Discover Our Core Services</p>
       {/* start */}
-      <div className='flex flex-wrap xl:gap-8 gap-4 pt-8 lg:flex-nowrap justify-center lg:justify-start'>
-                {/* 1stdiv */}
+      <div className="flex flex-wrap gap-6 pt-8 justify-center lg:justify-start xl:mx-0 lg:mx-24">
+  {/* Card 1 */}
+  <div className="bg-black w-[280px] md:w-[360px] lg:w-[380px] xl:w-[400px] h-[450px] rounded-2xl rotate-3">
+    <div className="bg-[#F7F7F7] w-full h-full rounded-2xl -rotate-2">
+      <div className="flex items-center justify-center py-8 lg:py-12">
+        <Image src={image1} alt="Ai Service" />
+      </div>
+      <p className="text-center text-[#2B2B2B] font-bold text-[26px]">Ai Service</p>
+      <p className="px-5 py-6 font-normal text-center">
+        Unlock the power of Artificial Intelligence (AI) with our comprehensive suite of services.
+      </p>
+      <div className="flex justify-between px-5 py-6">
+        <p className="font-bold text-[18px]">See more</p>
+        <span className="flex items-center justify-center w-12 h-12 text-white bg-black rounded-full">
+          <GoArrowUpRight className="w-[24px] h-[24px]" />
+        </span>
+      </div>
+    </div>
+  </div>
 
-          <div className='bg-black xl:w-[400px] lg:w-[380px]  md:w-[360px] xl:sm:w-[320px] w-[280px] h-[450px] rounded-2xl rotate-3 '>
-              <div className='bg-[#F7F7F7] xl:w-[400px] lg:w-[380px] md:w-[360px] xl:sm:w-[320px] w-[280px] h-[450px] rounded-2xl -rotate-2 '>
-              <div className='flex items-center justify-center xl:py-12 py-8'>
-                  <Image src={image1} alt='img' className/>
-                </div>
-                <p className='text-center text-[#2B2B2B] font-bold text-[26px]'>Ai Service</p>
+  {/* Card 2 */}
+  <div className="bg-black w-[280px] md:w-[360px] lg:w-[380px] xl:w-[400px] h-[450px] rounded-2xl rotate-3">
+    <div className="bg-[#F7F7F7] w-full h-full rounded-2xl -rotate-2">
+      <div className="flex items-center justify-center py-8 lg:py-12">
+        <Image src={image2} alt="Blockchain Development" />
+      </div>
+      <p className="text-center text-[#2B2B2B] font-bold text-[26px]">Blockchain Development</p>
+      <p className="px-5 py-6 font-normal text-center">
+        The groundbreaking potential of Blockchain technology is a core belief at Quadruple.
+      </p>
+      <div className="flex justify-between px-5 py-6">
+        <p className="font-bold text-[18px]">See more</p>
+        <span className="flex items-center justify-center w-12 h-12 text-white bg-black rounded-full">
+          <GoArrowUpRight className="w-[24px] h-[24px]" />
+        </span>
+      </div>
+    </div>
+  </div>
 
+  {/* Card 3 */}
+  <div className="bg-black w-[280px] md:w-[360px] lg:w-[380px] xl:w-[400px] h-[450px] rounded-2xl rotate-3">
+    <div className="bg-[#F7F7F7] w-full h-full rounded-2xl -rotate-2">
+      <div className="flex items-center justify-center py-8 lg:py-12">
+        <Image src={image3} alt="Web Development" />
+      </div>
+      <p className="text-center text-[#2B2B2B] font-bold text-[26px]">Web Development</p>
+      <p className="px-5 py-6 font-normal text-center">
+        At Quadtruple Solutions, we craft web applications that seamlessly blend cutting-edge technology with creative innovation.
+      </p>
+      <div className="flex justify-between px-5 py-6">
+        <p className="font-bold text-[18px]">See more</p>
+        <span className="flex items-center justify-center w-12 h-12 text-white bg-black rounded-full">
+          <GoArrowUpRight className="w-[24px] h-[24px]" />
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
 
-                <p className='px-5 py-6 font-normal text-center'>Unlock the power of Artificial Intelligence (AI) with our comprehensive suite of services</p>
-          <div className='flex justify-between px-5 xl:py-24'>
-            <p className='font-bold text-[18px]'>See more</p>
-            <span className='flex items-center justify-center w-12 h-12 text-white bg-black rounded-full '>
-            <GoArrowUpRight className=' w-[24px] h-[24px] '/></span> </div>
-              </div>
-              </div>
-              {/* 2nddiv */}
-              <div className='bg-black xl:w-[400px] lg:w-[380px] md:w-[360px] xl:sm:w-[320px] w-[280px] h-[450px] rounded-2xl rotate-3  '>
-              <div className='bg-[#F7F7F7] xl:w-[400px]  lg:w-[380px] md:w-[360px] xl:sm:w-[320px] w-[280px] h-[450px] rounded-2xl -rotate-2 '>
-              <div className='flex items-center justify-center xl:py-12 py-8'>
-                  <Image src={image2} alt='img2' className/>
-                </div>
-                <p className='text-center text-[#2B2B2B] font-bold text-[26px]'>Blockchain Development</p>
-
-
-                <p className='px-5 py-6 font-normal text-center'>The groundbreaking potential of Blockchain technology is a core belief at Quadruple.</p>
-          <div className='flex justify-between px-5 lg:py-24'>
-            <p className='font-bold text-[18px]'>See more</p>
-            <span className='flex items-center justify-center w-12 h-12 text-white bg-black rounded-full'>
-            <GoArrowUpRight className=' w-[24px] h-[24px] '/></span> </div>
-              </div>
-              </div>
-              {/* 3div */}
-              <div className='bg-black xl:w-[400px] lg:w-[380px] md:w-[360px] xl:sm:w-[320px] w-[280px] h-[450px] rounded-2xl rotate-3 '>
-              <div className='bg-[#F7F7F7] xl:w-[400px] lg:w-[380px]  md:w-[360px] xl:sm:w-[320px] w-[280px] h-[450px] rounded-2xl -rotate-2 '>
-              <div className='flex items-center justify-center lg:py-12 py-8'>
-                  <Image src={image3}  alt='img3'className/>
-                </div>
-                <p className='text-center text-[#2B2B2B] font-bold text-[26px]'>WebDevelopment</p>
-
-
-                <p className='px-5 py-6 font-normal text-center'>At Quadtruple Solutions, we craft web applications that seamlessly blend cutting-edge technology with creative innovation, ensuring 
-                simplicity, effectiveness, and captivation for your users.</p>
-          <div className='flex justify-between px-5 lg:py-12'>
-            <p className='font-bold text-[18px]'>See more</p>
-            <span className='flex items-center justify-center w-12 h-12 text-white bg-black rounded-full'>
-            <GoArrowUpRight className=' w-[24px] h-[24px] '/></span> </div>
-              </div>
-              </div></div>
               {/* Last */}
-              <div className='flex flex-wrap xl:gap-8 gap-3 pt-12 lg:flex:nowrap justify-center lg:justify-start'>
-              <div className='bg-black xl:w-[400px] lg:w-[380px] md:w-[360px] xl:sm:w-[320px] w-[280px] h-[450px] rounded-2xl rotate-3 '>
+              <div className='flex flex-wrap xl:gap-8 gap-4  pt-12 lg:flex:nowrap xl:mx-0 lg:mx-24'>
+
+              <div className="flex flex-wrap gap-6 pt-8 justify-center lg:justify-start">
+  {/* Card 1 */}
+  <div className="bg-black w-[280px] md:w-[360px] lg:w-[380px] xl:w-[400px] h-[450px] rounded-2xl rotate-3">
+    <div className="bg-[#F7F7F7] w-full h-full rounded-2xl -rotate-2">
+      <div className="flex items-center justify-center py-8 lg:py-12">
+      <Image src={image4} alt='img4' className/>
+      </div>
+      <p className="text-center text-[#2B2B2B] font-bold text-[26px]">DevOps Service</p>
+      <p className="px-5 py-6 font-normal text-center">
+      Quadruple offers comprehensive DevOps services
+                 to streamline and enhance your development and operations processes.
+      </p>
+      <div className="flex justify-between px-5 py-6">
+        <p className="font-bold text-[18px]">See more</p>
+        <span className="flex items-center justify-center w-12 h-12 text-white bg-black rounded-full">
+          <GoArrowUpRight className="w-[24px] h-[24px]" />
+        </span>
+      </div>
+    </div>
+  </div>
+
+  {/* Card 2 */}
+  <div className="bg-black w-[280px] md:w-[360px] lg:w-[380px] xl:w-[400px] h-[450px] rounded-2xl rotate-3">
+    <div className="bg-[#F7F7F7] w-full h-full rounded-2xl -rotate-2">
+      <div className="flex items-center justify-center py-8 lg:py-12">
+      <Image src={image5} alt='img5' className/>
+      </div>
+      <p className="text-center text-[#2B2B2B] font-bold text-[26px]">Web/Cyber Security</p>
+      <p className="px-5 py-6 font-normal text-center">
+      Quadruple offers comprehensive 
+                DevOps services to streamline and enhance your development and operations processes.
+      </p>
+      <div className="flex justify-between px-5 py-6">
+        <p className="font-bold text-[18px]">See more</p>
+        <span className="flex items-center justify-center w-12 h-12 text-white bg-black rounded-full">
+          <GoArrowUpRight className="w-[24px] h-[24px]" />
+        </span>
+      </div>
+    </div>
+  </div>
+
+  {/* Card 3 */}
+  <div className="bg-black w-[280px] md:w-[360px] lg:w-[380px] xl:w-[400px] h-[450px] rounded-2xl rotate-3">
+    <div className="bg-[#F7F7F7] w-full h-full rounded-2xl -rotate-2">
+      <div className="flex items-center justify-center py-8 lg:py-12">
+      <Image src={image6}  alt='img6' className/>
+      </div>
+      <p className="text-center text-[#2B2B2B] font-bold text-[26px]">AWS Services</p>
+      <p className="px-5 py-6 font-normal text-center">
+      Unlock the full potential of cloud computing with Quadruple's
+                 AWS services, delivering unparalleled scalability, reliability, and innovation.  
+      </p>
+      <div className="flex justify-between px-5 py-6">
+        <p className="font-bold text-[18px]">See more</p>
+        <span className="flex items-center justify-center w-12 h-12 text-white bg-black rounded-full">
+          <GoArrowUpRight className="w-[24px] h-[24px]" />
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+              {/* <div className='bg-black xl:w-[400px] lg:w-[380px] md:w-[360px] xl:sm:w-[320px] w-[280px] h-[450px] rounded-2xl rotate-3 '>
               <div className='bg-[#F7F7F7] xl:w-[400px] lg:w-[380px] md:w-[360px] xl:sm:w-[320px] w-[280px] h-[450px] rounded-2xl -rotate-2'>
               <div className='flex items-center justify-center xl:py-10 py-8'>
                   <Image src={image4} alt='img4' className/>
@@ -88,9 +158,9 @@ const Service = () => {
             <span className='flex items-center justify-center w-12 h-12 text-white bg-black rounded-full'>
             <GoArrowUpRight className=' w-[24px] h-[24px] '/></span> </div>
               </div>
-              </div>
+              </div> */}
         {/* 2nd */}
-        <div className='bg-black xl:w-[400px] lg:w-[380px] md:w-[360px] xl:sm:w-[320px] w-[280px]  h-[450px] rounded-2xl rotate-3  '>
+        {/* <div className='bg-black xl:w-[400px] lg:w-[380px] md:w-[360px] xl:sm:w-[320px] w-[280px]  h-[450px] rounded-2xl rotate-3  '>
               <div className='bg-[#F7F7F7] xl:w-[400px] lg:w-[380px] md:w-[360px] xl:sm:w-[320px] w-[280px]  h-[450px] rounded-2xl -rotate-2 '>
               <div className='flex items-center justify-center xl:py-10 py-8'>
                   <Image src={image5} alt='img5' className/>
@@ -105,9 +175,9 @@ const Service = () => {
             <span className='flex items-center justify-center w-12 h-12 text-white bg-black rounded-full'>
             <GoArrowUpRight className=' w-[24px] h-[24px] '/></span> </div>
               </div>
-              </div>
+              </div> */}
         {/* 3rd */}
-        <div className='bg-black xl:w-[400px] lg:w-[380px] md:w-[360px] xl:sm:w-[320px] w-[280px] h-[450px] rounded-2xl rotate-3 '>
+        {/* <div className='bg-black xl:w-[400px] lg:w-[380px] md:w-[360px] xl:sm:w-[320px] w-[280px] h-[450px] rounded-2xl rotate-3 '>
               <div className='bg-[#F7F7F7] xl:w-[400px]  lg:w-[380px] md:w-[360px] xl:sm:w-[320px] w-[280px] h-[450px] rounded-2xl -rotate-2 '>
               <div className='flex items-center justify-center xl:py-10 py-8'>
                   <Image src={image6}  alt='img6' className/>
@@ -122,7 +192,7 @@ const Service = () => {
             <span className='flex items-center justify-center w-12 h-12 text-white bg-black rounded-full'>
             <GoArrowUpRight className=' w-[24px] h-[24px] '/></span> </div>
               </div>
-              </div>       
+              </div>        */}
     </div>
     </div>
     

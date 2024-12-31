@@ -24,10 +24,12 @@ export const Project = () => {
     </span> 
     of<br /> Successful Projects
   </h1>
+ 
 </div>
+<SimpleWork/>
 
         {/* <Workslider/> */}
-        <SimpleWork/>
+       
     </section>
     
     

@@ -9,7 +9,7 @@ import mobile4 from '../../../public/images/mobile4.png';
 const Home = () => {
   return (
     <>
-      <section className="bg-[#2B2B2B] min-h-[606px] relative px-4 py-12 sm:px-6 md:px-8 lg:px-12">
+      <section className="bg-[#2B2B2B] min-h-[606px] relative px-4 py-12 sm:px-6 md:px-8 lg:px-12 bg-no-repeat">
         {/* Stars */}
         <Star className="absolute left-4 top-4 sm:left-6 sm:top-6 lg:left-32 lg:top-10 w-6 h-6 sm:w-8 sm:h-8 lg:w-10 lg:h-10" />
         <Star className="absolute right-4 top-4 sm:right-6 sm:top-6 lg:right-32 lg:top-10 w-6 h-6 sm:w-8 sm:h-8 lg:w-10 lg:h-10" />

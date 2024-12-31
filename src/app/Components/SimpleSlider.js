@@ -104,6 +104,8 @@ export default function SimpleSlider() {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          centerMode: true, // Enable centering the slide
+      centerPadding: "40px",
         },
       },
     ],
