@@ -263,7 +263,7 @@ function Slider() {
     <Carousel>
       <CarouselContent>
         {sliderData.map((item) => (
-          <CarouselItem key={item.id} className="xl:px-14 lg:px-44 md:px-32 px-6 xl:basis-1/2 ">
+          <CarouselItem key={item.id} className="xl:px-14 lg:px-44 md:px-32 px-12 xl:basis-1/2 ">
             <div className='bg-[#333333] xl:w-[600px] lg:w-[550px] md:w-[500px] w-[300px] h-[500px] rounded-2xl py-4'>
               <p className='text-white px-12 font-bold py-2'>{`0${item.id}`}</p>
               <div className='px-12'>
