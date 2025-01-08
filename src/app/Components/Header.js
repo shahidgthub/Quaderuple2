@@ -22,11 +22,11 @@ const Header = () => {
                 <Link href={"/"} className='hover:text-green-500 text-[16px] font-bold'>Services</Link>
                 <Link href={"/"} className='hover:text-green-500 text-[16px] font-bold'>Project</Link>
                 <Link href={"/"} className='hover:text-green-500 text-[16px] font-bold'>Blogs</Link>
-                <Link href={"/"} className='hover:text-green-500 text-[16px] font-bold'>Contact Us</Link> </ul>
+                <Link href={"/contact"} className='hover:text-green-500 text-[16px] font-bold'>Contact Us</Link> </ul>
                 <div>
                   
                 <div className="flex justify-center items-center">
-  <button className="lg:flex hidden border-2 px-4 py-3 rounded-3xl bg-[#00A87D] mt-5 hover:bg-black items-center space-x-2">
+  <button className="lg:flex hidden border-2 px-4 py-3 rounded-3xl bg-[#00A87D] mt-5 hover:bg-black items-center space-x-2 onclick{/contact}">
     <span className='text-white text-[18px] font-bold'>Contact Us</span>
     <MdArrowOutward className='w-[18px] h-[14.5px] text-white' />
   </button>

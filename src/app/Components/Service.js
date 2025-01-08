@@ -20,9 +20,9 @@ const Service = () => {
       <h1 className='text-center xl:text-6xl text-4xl capitalize font-bold'>Our <span className='bg-hero-newbg bg-cover w-[206px] text-center uppercase lg:text-6xl px-4  rounded-2xl text-white '> Sevice</span></h1>
       <p className='font-semibold text-center py-4'>Discover Our Core Services</p>
       {/* start */}
-      <div className="flex flex-wrap gap-6 pt-8 justify-center lg:justify-start xl:mx-0 lg:mx-24">
+      <div className="flex lg:flex-nowrap flex-wrap gap-6 pt-8  lg: justify-start justify-center lg:mx-6 mx-4  ">
   {/* Card 1 */}
-  <div className="bg-black w-[280px] md:w-[360px] lg:w-[380px] xl:w-[400px] h-[450px] rounded-2xl rotate-3">
+  <div className="bg-black w-[280px] md:w-[350px] lg:w-[380px] xl:w-[400px] h-[450px] rounded-2xl rotate-3">
     <div className="bg-[#F7F7F7] w-full h-full rounded-2xl -rotate-2">
       <div className="flex items-center justify-center py-8 lg:py-12">
         <Image src={image1} alt="Ai Service" />
@@ -41,7 +41,7 @@ const Service = () => {
   </div>
 
   {/* Card 2 */}
-  <div className="bg-black w-[280px] md:w-[360px] lg:w-[380px] xl:w-[400px] h-[450px] rounded-2xl rotate-3">
+  <div className="bg-black w-[280px] md:w-[350px] lg:w-[380px] xl:w-[400px] h-[450px] rounded-2xl rotate-3">
     <div className="bg-[#F7F7F7] w-full h-full rounded-2xl -rotate-2">
       <div className="flex items-center justify-center py-8 lg:py-12">
         <Image src={image2} alt="Blockchain Development" />
@@ -60,7 +60,7 @@ const Service = () => {
   </div>
 
   {/* Card 3 */}
-  <div className="bg-black w-[280px] md:w-[360px] lg:w-[380px] xl:w-[400px] h-[450px] rounded-2xl rotate-3">
+  <div className="bg-black w-[280px] md:w-[350px] lg:w-[380px] xl:w-[400px] h-[450px] rounded-2xl rotate-3">
     <div className="bg-[#F7F7F7] w-full h-full rounded-2xl -rotate-2">
       <div className="flex items-center justify-center py-8 lg:py-12">
         <Image src={image3} alt="Web Development" />
@@ -80,11 +80,11 @@ const Service = () => {
 </div>
 
               {/* Last */}
-              <div className='flex flex-wrap xl:gap-8 gap-4  pt-12 lg:flex:nowrap xl:mx-0 lg:mx-24'>
+              
 
-              <div className="flex flex-wrap gap-6 pt-8 justify-center lg:justify-start">
+              <div className="flex lg:flex-nowrap flex-wrap gap-6 pt-8  lg:justify-start justify-center lg:mx-6  mx-4">
   {/* Card 1 */}
-  <div className="bg-black w-[280px] md:w-[360px] lg:w-[380px] xl:w-[400px] h-[450px] rounded-2xl rotate-3">
+  <div className="bg-black w-[280px] md:w-[350px] lg:w-[380px] xl:w-[400px] h-[450px] rounded-2xl rotate-3">
     <div className="bg-[#F7F7F7] w-full h-full rounded-2xl -rotate-2">
       <div className="flex items-center justify-center py-8 lg:py-12">
       <Image src={image4} alt='img4' className/>
@@ -104,7 +104,7 @@ const Service = () => {
   </div>
 
   {/* Card 2 */}
-  <div className="bg-black w-[280px] md:w-[360px] lg:w-[380px] xl:w-[400px] h-[450px] rounded-2xl rotate-3">
+  <div className="bg-black w-[280px] md:w-[350px] lg:w-[380px] xl:w-[400px] h-[450px] rounded-2xl rotate-3">
     <div className="bg-[#F7F7F7] w-full h-full rounded-2xl -rotate-2">
       <div className="flex items-center justify-center py-8 lg:py-12">
       <Image src={image5} alt='img5' className/>
@@ -124,7 +124,7 @@ const Service = () => {
   </div>
 
   {/* Card 3 */}
-  <div className="bg-black w-[280px] md:w-[360px] lg:w-[380px] xl:w-[400px] h-[450px] rounded-2xl rotate-3">
+  <div className="bg-black w-[280px] md:w-[350px] lg:w-[380px] xl:w-[400px] h-[450px] rounded-2xl rotate-3">
     <div className="bg-[#F7F7F7] w-full h-full rounded-2xl -rotate-2">
       <div className="flex items-center justify-center py-8 lg:py-12">
       <Image src={image6}  alt='img6' className/>
@@ -194,7 +194,7 @@ const Service = () => {
               </div>
               </div>        */}
     </div>
-    </div>
+   
     
   )
 }

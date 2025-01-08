@@ -1,16 +1,17 @@
 'use client';
+
 import React, { useState } from 'react';
 import { Call, Email, Frame, Star } from '../../../public/Icons/icons';
-import { IoIosPersonAdd } from "react-icons/io";
-import { MdOutlineMarkEmailRead } from "react-icons/md";
-import { FaPhoneAlt } from "react-icons/fa";
+import { IoIosPersonAdd } from 'react-icons/io';
+import { MdOutlineMarkEmailRead } from 'react-icons/md';
+import { FaPhoneAlt } from 'react-icons/fa';
 
 const Contact = () => {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [phone, setPhone] = useState("");
-  const [organization, setOrganization] = useState("");
-  const [idea, setIdea] = useState("");
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [phone, setPhone] = useState('');
+  const [organization, setOrganization] = useState('');
+  const [idea, setIdea] = useState('');
 
   const handleSubmit = () => {
     console.log({
@@ -27,7 +28,7 @@ const Contact = () => {
       <div className="container mx-auto">
         <div className="flex gap-12 lg:flex-nowrap flex-wrap">
           {/* Left Content */}
-          <div className="pt-12 lg:text-start text-center ">
+          <div className="pt-12 lg:text-start text-center">
             <p className="text-[#00A87D]">Contact us ..</p>
             <p className="font-bold text-[32px] text-white">Get In Touch With Us</p>
             <p className="text-white py-3">
@@ -37,23 +38,22 @@ const Contact = () => {
               <br />
               questions.
             </p>
-            <div className="py-3 flex gap-3 ">
-    <Frame/>
-    <p className="text-white text-[12px] xl:text-[16px] mt-2">
-        Worldwide Remote Headquartered in
-        <br />
-        Islamabad, Pakistan
-    </p>
-</div>
-
-            <div className="flex gap-3 py-3 ">
+            <div className="py-3 flex gap-3">
+              <Frame />
+              <p className="text-white text-[12px] xl:text-[16px] mt-2">
+                Worldwide Remote Headquartered in
+                <br />
+                Islamabad, Pakistan
+              </p>
+            </div>
+            <div className="flex gap-3 py-3">
               <Call />
               <div>
                 <p className="text-[#00A87D]">Phone number</p>
                 <p className="text-white">+92 313 337 7434</p>
               </div>
             </div>
-            <div className="flex gap-4 py-3 ">
+            <div className="flex gap-4 py-3">
               <Email />
               <div>
                 <p className="text-[#00A87D]">Email</p>
@@ -61,6 +61,7 @@ const Contact = () => {
               </div>
             </div>
           </div>
+
           {/* Right Form */}
           <div className="bg-[#333333] w-full max-w-xl relative">
             <Star className="absolute left-4 top-4" />
@@ -77,7 +78,7 @@ const Contact = () => {
               </div>
               <div className="flex items-center bg-[#2B2B2B] rounded-md px-4 py-3">
                 <input
-                  type="text"
+                  type="email"
                   placeholder="Email"
                   className="flex-grow bg-transparent text-white placeholder-gray-400 focus:outline-none"
                   onChange={(e) => setEmail(e.target.value)}
@@ -87,7 +88,7 @@ const Contact = () => {
               <div className="flex items-center bg-[#2B2B2B] rounded-md px-4 py-3">
                 <input
                   type="text"
-                  placeholder="PhoneNumber"
+                  placeholder="Phone Number"
                   className="flex-grow bg-transparent text-white placeholder-gray-400 focus:outline-none"
                   onChange={(e) => setPhone(e.target.value)}
                 />

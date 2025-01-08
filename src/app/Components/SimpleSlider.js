@@ -113,25 +113,25 @@ export default function SimpleSlider() {
 
   return (
     <div className="max-w-screen-xl mx-auto px-4">
-      <Slider {...settings} className="-mt-28">
+      <Slider {...settings} className="-mt-28 ">
         <div className="py-6 px-12">
           <Image
             src={home}
-            className="w-[297px] xl:h-[297px] object-cover rounded-2xl border-4 border-white rotate-6"
+            className="w-[297px]  object-cover rounded-2xl border-4 border-white rotate-6"
             alt="Image 1"
           />
         </div>
         <div className="py-6 px-12">
           <Image
             src={home2}
-            className="w-[297px] xl:h-[297px] object-cover rounded-2xl border-4 border-white rotate-6"
+            className="w-[297px]  object-cover rounded-2xl border-4 border-white rotate-6"
             alt="Image 2"
           />
         </div>
         <div className="py-6 px-12">
           <Image
             src={home3}
-            className="w-[297px] xl:h-[297px] object-cover rounded-2xl border-4 border-white rotate-6"
+            className="w-[297px]  object-cover rounded-2xl border-4 border-white rotate-6"
             alt="Image 3"
           />
         </div>
