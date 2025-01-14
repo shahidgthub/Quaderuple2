@@ -15,9 +15,9 @@ const page = () => {
       <Header/>
       <Home/>
        <SimpleSlider/>
-      <Service/>
-      <Project/>
-      <Blog/>
+      {/* <Service/> */}
+      {/* <Project/> */}
+      {/* <Blog/> */}
       <Takeworld/>
       <Contact/>
       <Footer/>
