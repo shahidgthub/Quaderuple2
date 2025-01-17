@@ -8,11 +8,10 @@ import { Project } from './Components/Project'
 import Service from './Components/Service'
 import SimpleSlider from './Components/SimpleSlider'
 import Takeworld from './Components/Takeworld'
-
 const page = () => {
   return (
     <div>
-      <Header/>
+      {/* <Header/> */}
       <Home/>
        <SimpleSlider/>
       <Service/>
@@ -20,7 +19,7 @@ const page = () => {
       <Blog/>
       <Takeworld/>
       <Contact/>
-      <Footer/>
+      {/* <Footer/> */}
      
     </div>
   )

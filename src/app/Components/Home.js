@@ -1,4 +1,6 @@
-import React from 'react';
+// "use client";
+// import React, {useState, useEffect} from 'react';
+import react from 'react';
 import { Star } from '../../../public/Icons/icons';
 import Image from 'next/image';
 import mobile from '../../../public/images/mobile.png';
@@ -7,6 +9,14 @@ import mobile3 from '../../../public/images/mobile3.png';
 import mobile4 from '../../../public/images/mobile4.png';
 
 const Home = () => {
+//   const [data , setData]=useState([]);
+
+//   useEffect(()=>{
+//     const response = fetch('https://fakestoreapi.com/products');
+//     console.log("responses : ", response);
+//     setData(response);
+//   },[])
+
   return (
     <>
       <section className="bg-[#2B2B2B] min-h-[606px] relative px-4 py-12 sm:px-6 md:px-8 lg:px-12 bg-no-repeat">
@@ -28,7 +38,6 @@ const Home = () => {
           <p className="text-white font-bold mt-4 text-[18px] sm:text-[20px] md:text-[28px] lg:text-[36px]">
             Turning Ideas into Digital Success!
           </p>
-
           {/* Description */}
           <p className="text-white text-[14px] sm:text-[16px] md:text-[18px] lg:text-[20px] py-4">
             At Quadtruple Solutions, we craft web applications that seamlessly blend cutting-edge technology with creative<br />
