@@ -29,7 +29,7 @@ const Takeworld = () => {
             <span className="bg-hero-newbg bg-cover w-[206px] text-center lg:text-6xl px-2  rounded-2xl text-white ">world </span>     with us
           </h1>
           {/* CardSection */}
-          <div className='flex  lg:flex-nowrap flex-wrap gap-8'>
+          <div className='flex  lg:flex-nowrap flex-wrap gap-8 lg:justify-start justify-center'>
           <div className="bg-[#333333] w-full max-w-xs lg:max-w-sm rounded-2xl">
               <div className="px-6 pt-4">
                 <Image src={newyork} alt="New york" className="w-full h-auto object-cover rounded-lg" />

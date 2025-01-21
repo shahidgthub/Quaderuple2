@@ -12,15 +12,42 @@ const Contact = () => {
   const [organization, setOrganization] = useState("");
   const [idea, setIdea] = useState("");
 
-  const handleSubmit = () => {
-    console.log({
+  const handleSubmit = async () => {
+    // Create a user object from the form data
+    const userData = {
       name,
       email,
       phone,
       organization,
       idea,
-    });
+    };
+  
+    // Make a POST request to the backend API
+    try {
+      const response = await fetch('http://localhost:5000/user', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(userData), // Send the form data as JSON
+      });
+  
+      // Parse the JSON response
+      const data = await response.json();
+  
+      if (response.ok) {
+        console.log('User created successfully:', data);
+        // You can display a success message or reset the form here
+      } else {
+        console.error('Error:', data.message);
+        // Handle errors, show a message to the user if needed
+      }
+    } catch (error) {
+      console.error('Error submitting form:', error);
+      // Handle network errors or other issues
+    }
   };
+  
 
   return (
     <section className="py-12 bg-[#2B2B2B] xl:mt-24 mt-12">

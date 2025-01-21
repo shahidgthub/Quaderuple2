@@ -79,7 +79,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Image from "next/image";
-import home from "../../../public/images/Home.jpg";
+import slickQimg from '../../../public/images/slickQimg.jpg'
+// import home from "../../../public/images/Home.jpg";
 import home2 from "../../../public/images/Home2.jpg";
 import home3 from "../../../public/images/Home3.jpg";
 
@@ -114,24 +115,24 @@ export default function SimpleSlider() {
   return (
     <div className="max-w-screen-xl mx-auto px-4">
       <Slider {...settings} className="-mt-28 ">
-        <div className="py-6 px-12">
+        <div className="py-6 lg:px-6 px-12 ">
           <Image
-            src={home}
-            className="w-[297px]  object-cover rounded-2xl border-4 border-white rotate-6"
+            src={slickQimg}
+            className="w-[320px]  object-cover rounded-2xl border-4 border-white rotate-6"
             alt="Image 1"
           />
         </div>
-        <div className="py-6 px-12">
+        <div className="py-6 lg:px-6 px-12 ">
           <Image
             src={home2}
-            className="w-[297px]  object-cover rounded-2xl border-4 border-white rotate-6"
+            className="w-[320px]   object-cover rounded-2xl border-4 border-white rotate-6"
             alt="Image 2"
           />
         </div>
-        <div className="py-6 px-12">
+        <div className="py-6 lg:px-6 px-12">
           <Image
             src={home3}
-            className="w-[297px]  object-cover rounded-2xl border-4 border-white rotate-6"
+            className="w-[320px] object-cover rounded-2xl border-4 border-white rotate-6"
             alt="Image 3"
           />
         </div>
