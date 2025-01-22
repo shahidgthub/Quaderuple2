@@ -18,7 +18,7 @@ const Blog = () => {
               {/* parent */}
               <div className='flex gap-8 lg:flex-nowrap flex-wrap py-6 lg:justify-start justify-center'>
               <div className='bg-[#F7F7F7] xl:w-[420px] lg:w-[400px] md:w-[360px] w-[310px]  h-[520px] rounded-xl px-3 py-6'>
-          <Image src={Article} className='xl:w-[395px] lg:w-[360px] md:w-[340px] w-[310px]  h-[260px] rounded-2xl'/>
+          <Image src={Article} alt='Article' className='xl:w-[395px] lg:w-[360px] md:w-[340px] w-[310px]  h-[260px] rounded-2xl '/>
           <button className='bg-[#00A87D] text-white rounded-2xl h-[32px] w-[126px] mt-3'>Technology</button>
           <p className='xl:text-[22px] text-[16px] font-bold py-2'>Google launches Cloud AI Platform Pipelines</p>
           <p className='text-[14px]'>Richard Thomas was born in 1990, and at only 29 years old, his trajectory is good.
@@ -31,7 +31,7 @@ const Blog = () => {
                <p className='font-semibold'>Dec 29, 2023</p></div>
                </div>
                <div className='bg-[#F7F7F7] xl:w-[420px]   lg:w-[400px] md:w-[360px] w-[310px] h-[520px] rounded-xl px-3 py-6'>
-          <Image src={Article2} className='xl:w-[395px]  lg:w-[360px] md:w-[340px] w-[310px] h-[260px] rounded-2xl'/>
+          <Image src={Article2}  alt='Artcle2' className='xl:w-[395px]  lg:w-[360px] md:w-[340px] w-[310px] h-[260px] rounded-2xl'/>
           <button className='bg-[#9DFF50]  rounded-2xl h-[32px] w-[126px] mt-3'>Technology</button>
           <p className='text-[22px] font-bold py-2'>Google launches Cloud AI Platform Pipelines</p>
           <p className='text-[14px] '>Richard Thomas was born in 1990, and at only 29 years old, his trajectory is good.
@@ -46,7 +46,7 @@ const Blog = () => {
              </div>
         </div>
         <div className='bg-[#F7F7F7] xl:w-[420px]  lg:w-[400px] md:w-[360px] w-[310px] h-[520px] rounded-xl px-3 py-6'>
-          <Image src={Article3} className='xl:w-[395px] lg:w-[360px] md:w-[340px] w-[310px]  h-[260px]'/>
+          <Image src={Article3} alt='Article3' className='xl:w-[395px] lg:w-[360px] md:w-[340px] w-[310px]  h-[260px]'/>
           <button className='bg-[#2B2B2B] text-white  rounded-2xl h-[32px] w-[126px] mt-3'>Technology</button>
           <p className='text-[22px] font-bold py-2'>Google launches Cloud AI Platform Pipelines</p>
           <p className='text-[14px] '>Richard Thomas was born in 1990, and at only 29 years old, his trajectory is good.
