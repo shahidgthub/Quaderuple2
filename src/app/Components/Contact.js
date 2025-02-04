@@ -13,40 +13,34 @@ const Contact = () => {
   const [idea, setIdea] = useState("");
 
   const handleSubmit = async () => {
-    // Create a user object from the form data
-    const userData = {
-      name,
-      email,
-      phone,
-      organization,
-      idea,
-    };
+    const userData = { name, email, phone, organization, idea };
   
-    // Make a POST request to the backend API
     try {
-      const response = await fetch('http://localhost:5000/user', {
+      const response = await fetch('http://localhost:5000/api/user', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify(userData), // Send the form data as JSON
+        body: JSON.stringify(userData),
       });
   
-      // Parse the JSON response
-      const data = await response.json();
+      const textResponse = await response.text(); // Read response as text first
   
-      if (response.ok) {
-        console.log('User created successfully:', data);
-        // You can display a success message or reset the form here
-      } else {
-        console.error('Error:', data.message);
-        // Handle errors, show a message to the user if needed
+      try {
+        const data = JSON.parse(textResponse); // Attempt to parse JSON
+        if (response.ok) {
+          console.log('User created successfully:', data);
+        } else {
+          console.error('Error:', data.message);
+        }
+      } catch (jsonError) {
+        console.error('Response is not valid JSON:', textResponse); // Log raw response
       }
     } catch (error) {
-      console.error('Error submitting form:', error);
-      // Handle network errors or other issues
+      console.error('Network error submitting form:', error);
     }
   };
+  
   
 
   return (

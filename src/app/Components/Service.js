@@ -13,7 +13,7 @@ const Service = () => {
   useEffect(() => {
     const fetchServices = async () => {
       try {
-        const response = await fetch('http://localhost:5000/service'); // Fetch data from API
+        const response = await fetch('http://localhost:5000/api/service/service'); // Fetch data from API
         if (!response.ok) {
           throw new Error('Failed to fetch services');
         }
@@ -62,7 +62,7 @@ const Service = () => {
           >
             <div className="bg-[#F7F7F7] w-full h-full rounded-2xl -rotate-2">
               <div className="flex items-center justify-center py-8 lg:py-12">
-                <img src={service?.img} alt="service images" width={'50px'} height={'60px'} />
+                {/* <img src={service?.img} alt="service images" width={'50px'} height={'60px'} /> */}
                 <p className="text-center text-[#2B2B2B] font-bold text-[26px]">{service.title}</p>
               </div>
               <p className="px-5 py-6 font-normal text-center">{service.description}</p>
